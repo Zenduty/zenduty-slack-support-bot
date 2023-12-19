@@ -1,0 +1,23 @@
+display_information:
+  name: zenduty-slackbot
+features:
+  bot_user:
+    display_name: zenduty-slackbot
+    always_online: false
+  slash_commands:
+    - command: /zenduty-bot
+      url: <paste the bot url here>
+      description: to create incidents
+      should_escape: false
+oauth_config:
+  scopes:
+    bot:
+      - commands
+      - chat:write
+settings:
+  interactivity:
+    is_enabled: true
+    request_url: <paste the bot url here>
+  org_deploy_enabled: false
+  socket_mode_enabled: false
+  token_rotation_enabled: false
