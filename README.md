@@ -51,7 +51,7 @@ python --version
 4. Once installed, the app will be visible in your Slack workspace.
 
 ## Additional Notes:
-- Replace `[Your specified endpoint URL]` in Step 1, Command 4, with the URL where your bot's functionality is implemented.
+- Replace `[Your specified endpoint URL]/slash_command/` in Step 1, Command 4, with the URL where your bot's functionality is implemented.
 
 
 ## Step 4:  Running Bot Locally
